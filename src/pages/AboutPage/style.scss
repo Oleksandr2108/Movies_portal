@@ -1,0 +1,37 @@
+.about-page {
+    margin-top: 35px;
+    margin-bottom: 90px;
+
+    .wrapper {
+        display: block;
+        display: flex;
+        background-color: #fff;
+        padding: 40px 90px;
+        border-radius: 20px;
+
+        .about-img {
+            width: 385px;
+            height: 270px;
+            border-radius: 20px;
+        }
+
+        .about-offer {
+            margin-left: 70px;
+
+            .about-title {
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 40.85px;
+                color: #333333;
+
+            }
+
+            .about-text {
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 21px;
+            }
+        }
+
+    }
+}

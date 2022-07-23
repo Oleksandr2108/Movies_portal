@@ -1,0 +1,30 @@
+.main-page {
+
+    .main-title {
+        text-align: center;
+        font-weight: 700;
+
+        .title {
+            font-size: 60px;
+            line-height: 81.71px;
+            color: #E59C9C;
+        }
+
+        .subtitle {
+            font-size: 30px;
+            line-height: 30.85px;
+            color: #fff;
+        }
+    }
+
+    .wrapper-movies {
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #fff;
+        border-radius: 20px;
+        margin-top: 50px;
+        padding: 40px 90px 20px;
+    }
+
+}

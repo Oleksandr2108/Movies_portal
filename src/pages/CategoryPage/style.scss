@@ -1,0 +1,30 @@
+.main-page {
+
+    .wrapper {
+        display: block;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 40px 90px;
+
+        .offer {
+            display: flex;
+            align-items: center;
+
+            .title {
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 40.85px;
+            }
+
+            .name {
+                font-size: 30px;
+                font-weight: 700;
+                color: #E59C9C;
+                margin-left: 35px;
+            }
+
+        }
+    }
+
+
+}

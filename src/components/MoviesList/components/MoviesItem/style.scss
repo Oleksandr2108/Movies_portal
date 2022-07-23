@@ -1,0 +1,36 @@
+.movies-item {
+    display: block;
+    width: 180px;
+    color: #333333;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+    .item-img {
+        display: block;
+        width: 180px;
+        height: 260px;
+        border-radius: 20px;
+    }
+
+    .title {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 13.65px;
+        margin-top: 20px;
+    }
+
+    .year-country {
+        line-height: 11.83px;
+        margin-top: 25px;
+    }
+
+    .genres {
+        line-height: 17.7px;
+        margin-top: 10px;
+    }
+
+    &:not(:nth-child(4n)) {
+        margin-right: 110px;
+    }
+}

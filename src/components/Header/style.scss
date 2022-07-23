@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 55px 0;
+    justify-content: space-between;
+
+    .logo {
+        display: block;
+        width: 185px;
+        height: 41px;
+        float: left;
+    }
+
+    nav {
+        a {
+            margin-left: 60px;
+            font-size: 20px;
+            font-weight: 400;
+
+            &.linkActive {
+                color: #E59C9C;
+            }
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+        }
+    }
+}
